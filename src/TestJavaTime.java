@@ -6,6 +6,7 @@ import java.time.*;
 
 public class TestJavaTime extends JFrame {
   public TestJavaTime() {
+	// Create an object with java.time.LocalDate
 	LocalDate today = LocalDate.now();  
 	// Create panel p1 for the buttons and set GridLayout
     JPanel p1 = new JPanel();
@@ -18,7 +19,7 @@ public class TestJavaTime extends JFrame {
   public static void main(String[] args) {
 	TestJavaTime frame = new TestJavaTime();
     frame.setTitle("Calculator");
-    frame.setSize(250, 300);
+    frame.setSize(300, 100);
     frame.setLocationRelativeTo(null); // Center the frame
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);
